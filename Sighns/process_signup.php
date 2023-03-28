@@ -62,12 +62,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $errors['confirm_password'] = 'Please confirm your password';
   }
 
-
-  if ($password !==) {
-    # code...
-  } else {
-    # code...
-  }
   
   // If there are no errors, insert data into users table
   if (empty($errors)) {
